@@ -1,0 +1,206 @@
+.navbar-container {
+  background: transparent;
+
+  align-items: center;
+}
+.navbar-container:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.navbar-container .logo {
+  float: left;
+  color: white;
+  text-transform: uppercase;
+
+  font-weight: 600;
+  line-height: 70px;
+}
+.navbar-container .ul-container {
+  list-style: none;
+}
+.navbar-container .ul-container .li-container {
+  float: left;
+  display: inline-block;
+  padding-top: 1rem;
+  // padding-bottom: 1rem;
+  margin: 0 5px;
+}
+.navbar-container .ul-container .li-container .links {
+  color: white;
+
+  text-decoration: none;
+  letter-spacing: 2px;
+  padding: 15px;
+
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.navbar-container .ul-container .li-container .links:hover {
+  color: #91e8ee;
+}
+.navbar-container .ul-container .ul-container {
+  position: absolute;
+  top: 90px;
+  opacity: 0;
+  visibility: hidden;
+  transition: top 0.3s;
+}
+.navbar-container .ul-container .li-container:hover > .ul-container {
+  top: 60px;
+  // line-height: 35px;
+  opacity: 1;
+  visibility: visible;
+  // padding-bottom: 1rem;
+  padding-right: 40px;
+  // font-size: 12px;
+  margin-right: 2rem;
+  transition: 0.3s ease-in-out;
+}
+.navbar-container .ul-container .ul-container .li-container {
+  position: relative;
+  margin: 0px;
+  letter-spacing: 3px;
+  float: none;
+  display: list-item;
+}
+.navbar-container .ul-container .ul-container .li-container .links {
+  line-height: 20px;
+}
+.navbar-container .ul-container .ul-container .ul-container .li-container {
+  position: relative;
+  top: -60px;
+  left: 150px;
+}
+.show,
+.icon,
+input {
+  display: none;
+}
+.fa-plus {
+  font-size: 15px;
+  margin-left: 40px;
+}
+@media all and (max-width: 968px) {
+  .navbar-container .ul-container {
+    margin-right: 0px;
+    float: left;
+    background: #05091867;
+    backdrop-filter: blur(15px);
+    border-radius: 16px;
+    border: 1px solid black;
+    padding-bottom: 2rem;
+    overflow-y: auto;
+    width: 100%;
+  }
+
+  .navbar-container .logo {
+    width: 100%;
+  }
+  .show + .links,
+  .ul-container {
+    display: none;
+
+    padding-bottom: 2rem;
+  }
+  .navbar-container .ul-container .li-container,
+  .navbar-container .ul-container .ul-container .li-container {
+    display: block;
+    width: 100%;
+  }
+  .show {
+    display: block;
+    color: white;
+    font-size: 18px;
+    text-transform: capitalize;
+    padding: 0 20px;
+
+    line-height: 50px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .show:hover {
+    color: #91e8ee;
+  }
+  .icon {
+    display: block;
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 40px;
+    line-height: 70px;
+    cursor: pointer;
+    font-size: 25px;
+  }
+  .navbar-container .ul-container .ul-container {
+    top: 70px;
+    border-top: 0px;
+    float: none;
+    position: static;
+    display: none;
+    opacity: 1;
+    visibility: visible;
+  }
+  .navbar-container .ul-container .ul-container .links {
+    padding-left: 40px;
+  }
+  .navbar-container .ul-container .ul-container .ul-container .links {
+    padding-left: 80px;
+  }
+  .navbar-container .ul-container .ul-container .ul-container .li-container {
+    position: static;
+  }
+  [id^="btn"]:checked + .ul-container {
+    display: block;
+  }
+  .navbar-container .ul-container .ul-container .li-container {
+    border-bottom: 0px;
+  }
+}
+/////custom
+
+.bg-dropdown {
+  background: #02050e96;
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+  border: 1px solid black;
+}
+.bg-dropdown-scrolled {
+  background: #02050e96;
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+  border: 1px solid black;
+}
+.navbar-scrolled {
+  background: var(--bg-secondary);
+  backdrop-filter: blur(20px);
+  transition: 0.2s ease-in-out;
+}
+.btn-nav-link {
+  border: 1px solid white;
+  color: white;
+  transition: 0.5s ease;
+}
+.btn-nav-link:hover {
+  background: #91e8ee;
+  color: white;
+  font-weight: bold;
+}
+@media screen and (max-width: "418px") {
+  .icon {
+    right: 15px;
+  }
+}
+@media screen and(max-width:"378px") {
+  .navbar-container .ul-container {
+    margin-right: 0.3rem;
+    float: left;
+    background: #02050e88;
+    backdrop-filter: blur(20px);
+    border-radius: 16px;
+    border: 1px solid black;
+  }
+  .icon {
+    right: 15px;
+  }
+}

@@ -1,0 +1,18 @@
+body{
+font-family: 'Urbanist', sans-serif;
+background: var(--bg-primary);
+width: 100%;
+}
+
+:root{
+    --bg-primary: #02050e;
+    /* navbarscrolled */
+    --bg-secondary:#02050e83;
+
+    --bg-gradient:linear-gradient(
+        144.39deg,
+        #fff -278.56%,
+        #339fca8b -78.47%,
+        #11101d 91.61%
+      );
+}

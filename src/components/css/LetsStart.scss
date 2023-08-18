@@ -1,0 +1,16 @@
+.bg-radient-let{
+    background: var(--bg-gradient);
+}
+.btn-let{
+    display: flex;
+    justify-content: end;
+}
+@media screen and (max-width:"768px") {
+    .kk{
+        text-align: center;
+    }
+    .btn-let{
+        display: flex;
+        justify-content: center;
+    }
+}
