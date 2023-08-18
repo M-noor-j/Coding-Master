@@ -8,9 +8,9 @@ const Footer = () => {
 			<div className="container">
 				<div className="row">
 					<div className="col-md-3">
-						<a href="index.html"><div>CODING MASTER</div></a>
+						<a href="index.html"><div className='fs-1 text-white'>CODING MASTER</div></a>
                       <div className="footer-about">
-                          <p className='text-white'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,  </p>
+                          <p className='text-white'>Software development company. Coding Master is a top rated web and mobile app development company excelling in design, development and launch of web & mobile apps. </p>
                       </div>
 
 					</div>
@@ -46,8 +46,9 @@ const Footer = () => {
 							<img src="./assets/images/about/home_line.png" alt="" class="img-fluid"/>
 							<div className="address-links">
 								<li className="address1"><i className="fa-solid fa-location-dot"></i>Pakistan Lahore</li>
-								   <li><a href=""><i className="fa-solid fa-phone"></i> +92 90904500112</a></li>
-								   <li><a href=""><i className="fa-solid fa-envelope"></i> mail@1234567.com</a></li>
+								<li className="address1"><i className="fa-solid fa-location-dot"></i>LONDON,UK</li>
+								   {/* <li><a href=""><i className="fa-solid fa-phone"></i> +92 90904500112</a></li>
+								   <li><a href=""><i className="fa-solid fa-envelope"></i> mail@1234567.com</a></li> */}
 							</div>
 						</div>
 					</div>

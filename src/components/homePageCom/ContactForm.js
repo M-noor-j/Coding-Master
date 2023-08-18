@@ -14,6 +14,8 @@ const ContactForm = () => {
   return (
     <>
       {/* //// */}
+      <form action="https://formspree.io/f/xaygowaw"
+  method="POST">
       <div className="my-form mt-5 pt-5">
         <div className="container">
           <h1 className="text-white fw-bold">Get in touch !</h1>
@@ -57,7 +59,7 @@ const ContactForm = () => {
               </div>
             </li>
             <li>
-              <textarea placeholder="Message"></textarea>
+              <textarea placeholder="Message" name="description"></textarea>
             </li>
             <li>
               <input type="checkbox" id="terms" />
@@ -78,7 +80,8 @@ const ContactForm = () => {
                       alt=""
                     />
                   </span>
-                  <span className="front">SUBMIT</span>
+                  {/* <span className="front">SUBMIT</span> */}
+                  <button type="submit">submit</button>
                 </button>
                 <button className="btn-grid" type="reset" disabled>
                   <span className="back">
@@ -94,6 +97,7 @@ const ContactForm = () => {
           </ul>
         </div>
       </div>
+      </form>
     </>
   );
 };

@@ -204,14 +204,7 @@ const Testimonial = () => {
                             <span>
                               <i className="fa fa-quote-left"></i>
                             </span>
-                            I wanted to thank you all and the team for the great
-                            work on RobotDrop.Fun. It's a great site and works
-                            well now on Polygon. I have some work to do to
-                            finish the content site, robotdrop.nft, and
-                            upload/create the RobotDrop NFT collection for
-                            promoting the DEX, but overall, the functionality is
-                            working great and I am very impressed by the skills
-                            and commitment of this team!
+                            The Software House has successfully delivered the platform’s MVP. The team collaborates effectively with the client’s internal team using the Agile methodology, Slack, and Google Meet for project management. The Software House’s investment in helping their engineers grow stands out.
                           </p>
                         </div>
                       </div>
@@ -241,12 +234,7 @@ const Testimonial = () => {
                             <span>
                               <i className="fa fa-quote-left"></i>
                             </span>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing
-                            elit. Vel a eius excepturi molestias commodi aliquam
-                            error magnam consectetur laboriosam numquam, minima
-                            eveniet nostrum sequi saepe ipsam non ea, inventore
-                            tenetur! Corporis commodi consequatur molestiae
-                            voluptatum!
+                            The Software House delivered intuitive designs that exceeded the client’s expectations and generated positive user feedback. The professional team listened to the client’s needs and responded well to feedback. They met with the client daily via Google Meet and communicated openly via Slack.
                           </p>
                         </div>
                       </div>
