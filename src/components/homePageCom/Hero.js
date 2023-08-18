@@ -17,7 +17,7 @@ const Hero = () => {
                     <br />
                     Development Teams
                   </div>
-                  <div className="text-white mt-3 sercice-hero-text ">
+                  <div className="text-white mt-3 sercice-hero-text">
                     Artificial Intelligence | Blockchain | React.Js | Angular |
                     Software Development{" "}
                   </div>

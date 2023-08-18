@@ -23,7 +23,7 @@ const Partners = () => {
     <div className="container mt-5">
       <div className="row">
         <div className="col-lg-2 col-md-4 col-sm-4 col-xs-6">
-          <div className="text-expert text-white fs-4">
+          <div className="text-expert text-white fs-5">
             Integrations and partners around the world
           </div>
         </div>
