@@ -8,7 +8,7 @@ const Footer = () => {
 			<div className="container">
 				<div className="row">
 					<div className="col-md-3">
-						<a href="index.html"><div className='fs-1 text-white'>CODING MASTER</div></a>
+						<a href="index.html"><div className='fs-2 text-white'>CODING MASTER</div></a>
                       <div className="footer-about">
                           <p className='text-white'>Software development company. Coding Master is a top rated web and mobile app development company excelling in design, development and launch of web & mobile apps. </p>
                       </div>

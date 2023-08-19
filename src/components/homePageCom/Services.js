@@ -35,8 +35,7 @@ const Services = () => {
                   <div className="text">
                     <div className="fs-4 fw-bold">Blockchain Web 3</div>
                     <p className="mt-3">
-                      Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry.
+                    We build cutting-edge Blockchain based software products
                     </p>
                   </div>
                 </div>
@@ -50,8 +49,7 @@ const Services = () => {
                   <div className="text">
                     <div className="fs-4 fw-bold">Artificial Intelligence</div>
                     <p className="mt-3">
-                      Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry.
+                    A steady stream of insights is all that you need for better decision-making.
                     </p>
                   </div>
                 </div>
@@ -65,8 +63,7 @@ const Services = () => {
                   <div className="text">
                     <div className="fs-4 fw-bold">DevOps</div>
                     <p className="mt-3">
-                      Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry
+                    We’ll speed up your deployment, and help you achieve guaranteed higher uptime.
                     </p>
                   </div>
                 </div>
@@ -121,8 +118,7 @@ const Services = () => {
                   <div className="text">
                     <div className="fs-4 fw-bold">SEO</div>
                     <p className="mt-3">
-                      Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry
+                    SEO means the process of improving your website to increase its visibility in Google, and other 
                     </p>
                   </div>
                 </div>
@@ -136,8 +132,7 @@ const Services = () => {
                   <div className="text">
                     <div className="fs-4 fw-bold">Data Science</div>
                     <p className="mt-3">
-                      Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry.
+                    A steady stream of insights is all that you need for better decision-making.
                     </p>
                   </div>
                 </div>
@@ -151,8 +146,7 @@ const Services = () => {
                   <div className="text">
                     <div className="fs-4 fw-bold">Internet of things</div>
                     <p className="mt-3">
-                      Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry.
+                    Monitor and analyze performance, streamline data flows,  processes & boost customer satisfaction.
                     </p>
                   </div>
                 </div>

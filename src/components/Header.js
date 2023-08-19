@@ -48,9 +48,9 @@ const Header = () => {
             <label for="btn-1" className="show">
               Features+
             </label>
-            <Link className="links" to="/about">
+            <a className="links" href="#about">
               About
-            </Link>
+            </a>
             <input type="checkbox" id="btn-1" />
             <ul className="bg-dropdown ul-container">
               <li className="li-container">
