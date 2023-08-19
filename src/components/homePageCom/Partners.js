@@ -20,22 +20,22 @@ const Partners = () => {
     },
   ];
   return (
-    <div className="container mt-5">
+    <div className="container " style={{marginTop:"10rem"}}>
       <div className="row">
-        <div className="col-lg-2 col-sm-6">
-          <div className="text-expert text-white fs-5">
+        <div className="col-lg-2 col-sm-6 col-4 d-flex justify-content-center align-items-center">
+          <div className="text-expert text-white ">
             Integrations and partners around the world
           </div>
         </div>
         {data.map((data, index) => (
-          <div className="col-lg-2 col-sm-6" key={index}>
+          <div className="col-lg-2 col-sm-6 col-4" key={index}>
             <div className="img-d d-flex justify-content-center align-items-center h-100">
               <img src={data.img} className="w-50 " alt="" />
             </div>
           </div>
         ))}
       </div>
-    </div>
+   </div>
   );
 };
 

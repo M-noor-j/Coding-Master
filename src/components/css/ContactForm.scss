@@ -1,28 +1,11 @@
-/* FOOTER STYLES
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-// .page-footer {
-//     position: fixed;
-//     right: 0;
-//     bottom: 50px;
-//     display: flex;
-//     align-items: center;
-//     padding: 5px;
-//     z-index: 1;
-//   }
 
-//   .page-footer a {
-//     display: flex;
-//     margin-left: 4px;
-//   }
-
-/////
 :root {
   --white: #ffffff;
   --red: #4baad5;
   --bodyColor: #292a2b;
   --borderFormEls: hsl(0, 0%, 10%);
   --bgFormEls: hsla(0, 0%, 48%, 0.449);
-  --bgFormElsFocus: hsl(188, 8%, 20%);
+  --bgFormElsFocus: hsla(0, 0%, 28%, 0.983);
 }
  
 /* Remove native arrow on IE */
@@ -64,6 +47,7 @@ ul {
   line-height: 1.5;
   padding: 15px 10px;
   border: 1px solid var(--borderFormEls);
+  outline: none;
   color: var(--white);
   background: var(--bgFormEls);
   transition: background-color 0.3s cubic-bezier(0.57, 0.21, 0.69, 1.25),
@@ -203,6 +187,10 @@ ul {
   border-bottom: 2px solid var(--white);
   border-right: 2px solid var(--white);
   transform: rotate(45deg);
+}
+.option-dev{
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 /* FOOTER

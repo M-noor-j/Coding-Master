@@ -10,39 +10,39 @@ const WhyShould = () => {
   const data = [
     {
       img: save,
-      cardheading: " 9+ years on the market",
+      cardheading: " 3+ years on the market",
       cardpara:
-        " We’ve been delivering working code and awesome solutions since 2014. 90% of our current clients have stayed with us for more than two years.",
+        " We’ve been delivering working code and awesome solutions since 2019. 90% of our current clients have stayed with us for more than two years.",
     },
     {
       img: skills,
       cardheading: "Talent pool",
       cardpara:
-        " There are more than 100+ software engineers on the Xines Solutions. However, if you need more specialists than are currently available, our skillful People Team is ready to find and hire the top talents for your project.",
+        " There are more than 100+ software engineers on the Coding Master. However, if you need more specialists than are currently available, our skillful People Team is ready to find and hire the top talents for your project.",
     },
     {
       img: notepad,
       cardheading: "Expertise fueled by experience",
       cardpara:
-        "More than 80% of Xines Solutions engineers have been working in the IT industry for over five years. We keep our finger on the pulse of technology trends and employ tried and tested tactics to write error-free code.",
+        "More than 80% of Coding Master engineers have been working in the IT industry for over five years. We keep our finger on the pulse of technology trends and employ tried and tested tactics to write error-free code.",
     },
     {
       img: scope,
       cardheading: "Excellent English skills",
       cardpara:
-        "Xines Solutions team members speak English and are able to discuss work-related issues directly. Your project communication is always efficient.",
+        "Coding Master team members speak English and are able to discuss work-related issues directly. Your project communication is always efficient.",
     },
     {
       img: log,
       cardheading: "Low turnover rate",
       cardpara:
-        " Most software engineers work at Xines Solutions for three years or more. We’ve raised engineers from trainees to system architects in-house. We keep on hiring new IT experts while our dedicated specialists stay with us!",
+        " Most software engineers work at Coding Master for three years or more. We’ve raised engineers from trainees to system architects in-house. We keep on hiring new IT experts while our dedicated specialists stay with us!",
     },
     {
       img: scopep,
       cardheading: "Transparent processes",
       cardpara:
-        "Minimum bureaucracy and maximum efficiency. Detailed agreements and clear security protocols. Xines Solutions can become your dependable IT team augmentation service provider for years.",
+        "Minimum bureaucracy and maximum efficiency. Detailed agreements and clear security protocols. Coding Master can become your dependable IT team augmentation service provider for years.",
     },
   ];
   return (

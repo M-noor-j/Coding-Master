@@ -4,24 +4,24 @@ const Footer = () => {
   return (
     <>
       
-          <div className="img-bg"></div>
+  
   
       <footer id="footer">
         <div className="container">
           <div className="row">
-            <div className="col-md-3">
+            <div className="col-md-3 col-6 ">
               <a href="index.html">
-                <div className="fs-2 text-white">CODING MASTER</div>
+                <div className="fs-2 text-white text-start fw-bold">CODING MASTER</div>
               </a>
               <div className="footer-about">
-                <p className="text-white">
+                <p className="text-white text-start mt-2">
                   Software development company. Coding Master is a top rated web
                   and mobile app development company excelling in design,
                   development and launch of web & mobile apps.{" "}
                 </p>
               </div>
             </div>
-            <div className="col-md-3">
+            <div className="col-md-3 col-6">
               <div className="useful-link">
                 <h2 className="text-white">Useful Links</h2>
                 <img
@@ -53,7 +53,7 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-3">
+            <div className="col-md-3 col-6 ">
               <div className="social-links">
                 <h2 className="text-white">Follow Us</h2>
                 <img src="./assets/images/about/home_line.png" alt="" />
@@ -76,7 +76,7 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-3">
+            <div className="col-md-3 col-6 ">
               <div className="address">
                 <h2 className="text-white">Address</h2>
                 <img
