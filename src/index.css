@@ -1,18 +1,41 @@
-body{
-font-family: 'Urbanist', sans-serif;
-background: var(--bg-primary);
-width: 100%;
+body {
+  font-family: "Urbanist", sans-serif;
+  background: var(--bg-primary);
+  width: 100%;
 }
 
-:root{
-    --bg-primary: #02050e;
-    /* navbarscrolled */
-    --bg-secondary:#02050e83;
+:root {
+  --bg-primary: #02050e;
+  /* navbarscrolled */
+  --bg-secondary: #02050e83;
 
-    --bg-gradient:linear-gradient(
-        144.39deg,
-        #fff -278.56%,
-        #339fca8b -78.47%,
-        #11101d 91.61%
-      );
+  --bg-gradient: linear-gradient(
+    144.39deg,
+    #fff -278.56%,
+    #339fca8b -78.47%,
+    #11101d 91.61%
+  );
+}
+.bg-blur-gradient {
+  background: linear-gradient(
+    180deg,
+    rgba(143, 218, 255, 0.744) 50%,
+    #3381ca 100%
+  );
+  filter: blur(153px);
+  position: absolute;
+  z-index: 1;
+}
+.img-bg {
+  background: linear-gradient(
+    180deg,
+    rgba(64, 189, 252, 0.993) 100%,
+    #054077 100%
+  );
+  filter: blur(153px);
+  position: absolute;
+  /* // margin-top: 10rem; */
+  width: 170px;
+  height: 170px;
+ 
 }

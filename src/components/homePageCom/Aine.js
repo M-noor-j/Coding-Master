@@ -8,7 +8,7 @@ const Aine = () => {
   return (
     <>
       <section className="about-section " id="about">
-        <div className="img-thk"></div>
+      <div className="bg-blur-gradient w-25 h-25"></div>
         <div className="container">
           <div className="row row-aine">
             <div className="content-column col-lg-6 col-md-12 col-sm-12 ">
@@ -35,21 +35,12 @@ const Aine = () => {
                   with inspirational UI design layout by professionals by using
                   Photoshop and adobe allustrator.
                 </div>
-                {/* <div className="btn-box">
-                  <Link>
-                   <Button label={"Explore more"}/>
-                  </Link>
-                </div> */}
               </div>
             </div>
 
             {/* <!-- Image Column --> */}
             <div className="image-column col-lg-6 col-md-12 col-sm-12">
               <div className="inner-column wow fadeInLeft">
-                {/* <div className="author-desc">
-                        <h2>Rahul Kumar Yadav</h2>
-                        <span>Web Developer</span>
-                      </div> */}
                 <figure className="image-1">
                   <a href="#" className="lightbox-image" data-fancybox="images">
                     <img

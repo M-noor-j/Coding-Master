@@ -1,4 +1,4 @@
-import React from "react";
+import React ,{useState,useEffect}from "react";
 import Home from "./components/pages/Home";
 import Header from "../src/components/Header";
 import About from "./components/pages/About"
@@ -7,8 +7,15 @@ import Career from "./components/pages/Career"
 import Blog from "./components/pages/Blog"
 import Footer from "./components/Footer";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import whatsappbutton from "../src/components/assets/whatsappbutton.png"
+
 const App = () => {
+  const [loading,setLoading]=useState(false);
+  useEffect(()=>{
+   setLoading(true)
+   setTimeout(()=>{
+    setLoading(false)
+   },8000)
+  },[])
   return (
     <>
        <div 

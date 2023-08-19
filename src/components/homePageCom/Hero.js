@@ -31,7 +31,7 @@ const Hero = () => {
                 <div className="img-i d-flex justify-content-end align-items-center">
                   <img src={robot} alt="" className="w-100" />
                 </div>
-                <div className="img-bg w-50 h-50"></div>
+                <div className="bg-blur-gradient w-50 h-50"></div>
               </div>
             </div>
           </div>

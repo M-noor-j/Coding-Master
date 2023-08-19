@@ -1,14 +1,14 @@
 import React from "react";
 import "../css/Industries.scss";
-import booking from "../assets/booking.png"
-import online from "../assets/online.png"
-import music from "../assets/music.png"
-import inevntor from "../assets/inevntor.png"
-import streaming from "../assets/streaming.png"
-import Sharing from "../assets/Sharing.png"
-import Saas from "../assets/Saas.png"
-import location from "../assets/location.png"
-import play from "../assets/play.png"
+import booking from "../assets/booking.png";
+import online from "../assets/online.png";
+import music from "../assets/music.png";
+import inevntor from "../assets/inevntor.png";
+import streaming from "../assets/streaming.png";
+import Sharing from "../assets/Sharing.png";
+import Saas from "../assets/Saas.png";
+import location from "../assets/location.png";
+import play from "../assets/play.png";
 
 const IndustriesWe = () => {
   const data = [
@@ -30,7 +30,7 @@ const IndustriesWe = () => {
     },
     {
       title: "Location-based apps",
-      img: location ,
+      img: location,
     },
     {
       title: "on-demand services platforms",
@@ -42,7 +42,7 @@ const IndustriesWe = () => {
     },
     {
       title: "Online streaming platforms",
-      img: play  ,
+      img: play,
     },
     {
       title: "Online Booking apps",
@@ -51,7 +51,7 @@ const IndustriesWe = () => {
   ];
   return (
     <>
-      <div className="container" style={{ marginTop: "5rem" }}>
+      <div className="container " style={{ marginTop: "5rem" }}>
         <div className="industries-heading text-white fs-2 fw-bold">
           We can build for you
         </div>

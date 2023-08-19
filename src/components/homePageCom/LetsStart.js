@@ -4,7 +4,11 @@ import Button from "../button/Button";
 const LetsStart = () => {
   return (
     <>
+     <div className="d-flex justify-content-end ">
+          <div className="img-bg"></div>
+        </div>
       <div className="container bg-radient-let rounded mt-5">
+       
         <div className="row py-5 px-4">
           <div className="col-md-6 kk">
             <div className="h1 display-5 fw-bold text-white">

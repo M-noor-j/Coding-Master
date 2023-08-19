@@ -33,16 +33,7 @@
 .life {
   position: relative;
 }
-.img-bg {
-  background: linear-gradient(
-    180deg,
-    rgba(143, 218, 255, 0.744) 50%,
-    #3381ca 100%
-  );
-  filter: blur(153px);
-  position: absolute;
-  z-index: 1;
-}
+
 
 .container-hero {
   height: 100vh;
