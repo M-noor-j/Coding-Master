@@ -16,7 +16,7 @@ const About = () => {
                 <div className="sec-title">
                   <span className="title">About Coding master</span>
                   <div className="text-white fs-3 fw-bold">
-                    We are Creative Tech Enthusiast working since 2015
+                    We are Creative Tech Enthusiast working since 2020
                   </div>
                 </div>
                 <div className="text text-white">

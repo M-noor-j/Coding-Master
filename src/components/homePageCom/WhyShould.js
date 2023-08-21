@@ -12,13 +12,13 @@ const WhyShould = () => {
       img: save,
       cardheading: " 3+ years on the market",
       cardpara:
-        " We’ve been delivering working code and awesome solutions since 2019. 90% of our current clients have stayed with us for more than two years.",
+        " We’ve been delivering working code and awesome solutions since 2020. 90% of our current clients have stayed with us for more than two years.",
     },
     {
       img: skills,
       cardheading: "Talent pool",
       cardpara:
-        " There are more than 100+ software engineers on the Coding Master. However, if you need more specialists than are currently available, our skillful People Team is ready to find and hire the top talents for your project.",
+        " There are more than 20+ software engineers on the Coding Master. However, if you need more specialists than are currently available, our skillful People Team is ready to find and hire the top talents for your project.",
     },
     {
       img: notepad,

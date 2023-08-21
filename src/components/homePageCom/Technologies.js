@@ -109,7 +109,7 @@ const Technologies = () => {
                   <span className="icon-services">
                     <img src={seo} alt="" className="w-100" />
                   </span>
-                  <div className="text">
+                  <div className="text text-start">
                     <div className="fs-4 fw-bold">SEO</div>
                     <p className="mt-3">
                     SEO means the process of improving your website to increase its visibility in Google, and other 
@@ -123,7 +123,7 @@ const Technologies = () => {
                   <span className="icon-services">
                     <img src={datasci} alt="" className="w-100" />
                   </span>
-                  <div className="text">
+                  <div className="text text-start">
                     <div className="fs-4 fw-bold">Data Science</div>
                     <p className="mt-3">
                     A steady stream of insights is all that you need for better decision-making.
@@ -137,9 +137,9 @@ const Technologies = () => {
                   <span className="icon-services">
                     <img src={iot} alt="" className="w-100" />
                   </span>
-                  <div className="text">
+                  <div className="text text-start">
                     <div className="fs-4 fw-bold">Internet of things</div>
-                    <p className="mt-3">
+                    <p className="mt-3 ">
                     Monitor and analyze performance, streamline data flows,  processes & boost customer satisfaction.
                     </p>
                   </div>

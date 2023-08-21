@@ -27,7 +27,7 @@ const App = () => {
             }}
         >
           <a
-            href="https://api.whatsapp.com/send?phone=+923214100432&text=Hi, Bilal Iqbal!"
+            href=", Muhammad Noor!"
             class="whatsapp-button"
             target="_blank"
             rel="noreferrer"
