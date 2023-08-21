@@ -39,7 +39,7 @@ const Header = () => {
           }
         >
           <li className="li-container">
-            <a className="links " href="#home">
+            <a className="links " href="#">
               Home
             </a>
           </li>
@@ -75,7 +75,7 @@ const Header = () => {
             <label for="btn-2" className="show ">
               Services+
             </label>
-            <a className="links" href="#features">
+            <a className="links" href="#services">
               Services
             </a>
             <input type="checkbox" id="btn-2" />
@@ -104,7 +104,7 @@ const Header = () => {
           </li>
 
           <li className="li-container">
-            <a className="links">
+            <a className="links" href="#features">
              Technologies
             </a>
           </li>
@@ -114,7 +114,7 @@ const Header = () => {
             </a>
           </li>
         
-          <button className="btn  mt-2 btn-nav-link rounded-0 fw-bold">
+          <button className="btn  mt-2 btn-nav-link rounded-0 fw-bold" >
             Get In Touch
           </button>
           {/* <Link className="links">

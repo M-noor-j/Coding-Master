@@ -1,157 +1,79 @@
 import React from "react";
 import "../css/Services.scss";
-import robotic from "../assets/robotic.png";
-import blockchain from "../assets/blockchain.png";
-import ai from "../assets/ai.png";
-import devops from "../assets/devops.png";
-import datasci from "../assets/datasci.png";
-import iot from "../assets/iot.png";
-import seo from "../assets/seo.png";
-import angular from "../assets/angular.png";
-import android from "../assets/android.png";
-import magento from "../assets/magento.png";
 const Services = () => {
-  const servicedata = [
+  const data = [
     {
-      img: "blockchain",
-      title: " 9+ years on the market",
-      text: " We’ve been delivering working code and awesome solutions since 2014. 90% of our current clients have stayed with us for more than two years.",
+      title: "Mobile App Development",
+      img: "https://cdn-icons-png.flaticon.com/512/2210/2210153.png",
+      description:
+        "Coding Master is at the vanguard of crafting intuitive and dynamic mobile applications that are designed to elevate user experience to new heights. From the inception of an idea to its successful deployment, we collaborate with our clients to bring their visionary concepts to fruition on the cutting edge of technology.",
+    },
+    {
+      title: "Large Scale Web Applications",
+      img: "https://i0.wp.com/bradan.co/wp-content/uploads/2017/05/icon-blue-website-design-development.png?fit=256%2C257&ssl=1",
+      description:
+        "Unleash the full potential of your business with web applications that are geared towards increasing revenue and maximizing profit. From streamlining internal processes to enhancing customer engagement, we design and develop web applications that are not only functional but also visually stunning and aesthetically pleasing.",
+    },
+    {
+      title: "UI and UX Design",
+      img: "https://cdn-icons-png.flaticon.com/512/2721/2721304.png",
+      description:
+        "Digital experiences that are truly extraordinary. Using a user-centric approach to design, focusing on understanding the needs and preferences of the end user, and leveraging that understanding to create designs that are truly unique and innovative.",
+    },
+    {
+      title: "Startups and MVP",
+      img: "https://www.codistan.org/wp-content/uploads/2023/07/mvp.png",
+      description:
+        "Outside-the-box solutions for situations where time and resources are limited. Helping startups bring their ideas to life and take their first steps toward success. A truly reliable team for ambitious entrepreneurs.",
+    },
+    {
+      title: "Emerging Tech",
+      img: "https://cdn-icons-png.flaticon.com/512/780/780529.png",
+      description:
+        "Always on the forefront of emerging technology. Staying ahead of the curve with specialized offerings in AI & ML, IoT, Blockchain, Wearables to name a few. Pushing boundaries of what's possible in the realm of emerging tech.",
+    },
+
+    {
+      title: "Cloud Services",
+
+      img: "https://cdn-icons-png.flaticon.com/512/2345/2345612.png",
+      description:
+        "Scalable, secure, and cost-effective cloud solutions. Backed by years of expertise on Amazon Web Services, Azure and Google Cloud. From migration to deployment, from Cloud Infrastructure Management to Cloud Backup and Cloud DevOps we have a proven track record of delivering successful cloud projects for clients.",
     },
   ];
   return (
     <>
-      <section id="features" className="section-padding">
+      <section className="section-services" id="services">
         <div className="container">
-          <div className="section-header text-center ">
-            <div className="shape wow fadeInDown"></div>
+          <div className="row justify-content-center text-center">
+            <div className="col-md-10 col-lg-8">
+              <div className="header-section">
+                <h2 className="title">
+                  Exclusive <span>Services</span>
+                </h2>
+        
+              </div>
+            </div>
           </div>
-          <div className="row ">
-            <div className="col-lg-4 col-md-12 col-sm-12 col-xs-12">
-              <div className="content-left">
-                <div className="box-item animated wow fadeInLeft">
-                  <span className="icon-services">
-                    <img src={blockchain} alt="" className="w-100" />
-                  </span>
-                  <div className="text">
-                    <div className="fs-4 fw-bold">Blockchain Web 3</div>
-                    <p className="mt-3">
-                    We build cutting-edge Blockchain based software products
-                    </p>
+          <div className="row">
+            {data.map((data, index) => (
+              <div className="col-md-6 col-lg-4 mt-4" key={index}>
+                <div className="card-service rounded  py-3 px-3 h-100">
+                  <img
+                    src={data.img}
+                    alt=""
+                    className=""
+                    style={{ width: "4.5rem" }}
+                  />
+                  <div className="title-service fs-4 fw-bold text-white mt-3">
+                    {data.title}
                   </div>
-                </div>
-                <div
-                  className="box-item animated wow fadeInLeft"
-                  data-wow-delay="0.6s"
-                >
-                  <span className="icon-services">
-                    <img src={ai} alt="" className="w-100" />
-                  </span>
-                  <div className="text">
-                    <div className="fs-4 fw-bold">Artificial Intelligence</div>
-                    <p className="mt-3">
-                    A steady stream of insights is all that you need for better decision-making.
-                    </p>
-                  </div>
-                </div>
-                <div
-                  className="box-item animated wow fadeInLeft"
-                  data-wow-delay="0.9s"
-                >
-                  <span className="icon-services">
-                    <img src={devops} alt="" className="w-100" />
-                  </span>
-                  <div className="text">
-                    <div className="fs-4 fw-bold">DevOps</div>
-                    <p className="mt-3">
-                    We’ll speed up your deployment, and help you achieve guaranteed higher uptime.
-                    </p>
+                  <div className="description-service text-white mt-2">
+                    {data.description}
                   </div>
                 </div>
               </div>
-            </div>
-            <div className="col-lg-4 col-md-12 col-sm-12 col-xs-12 bg-o">
-              <div className="show-box animated wow fadeInUp  ">
-                {/* <img src={robotic} alt="" /> */}
-                <section className="main-container ">
-                  <div className="main ">
-                    <div className="big-circle">
-                      <div className="icon-block p-1 p-1">
-                        <img src={blockchain} alt="web design icon" />
-                      </div>
-                      <div className="icon-block p-1">
-                        <img src={ai} alt="game design icon" />
-                      </div>
-                      <div className="icon-block p-1">
-                        <img src={devops} alt="game dev icon" />
-                      </div>
-                      <div className="icon-block p-1">
-                        <img src={datasci} alt="ui-ux icon" />
-                      </div>
-                    </div>
-                    <div className="circle">
-                      <div className="icon-block p-1">
-                        <img src={seo} alt="app icon" />
-                      </div>
-                      <div className="icon-block p-2">
-                        <img src={magento} alt="blockchain icon" />
-                      </div>
-                      <div className="icon-block p-1">
-                        <img src={android} alt="ar-vr icon" />
-                      </div>
-                      <div className="icon-block p-2">
-                        <img src={angular} alt="artificial intelligence icon" />
-                      </div>
-                    </div>
-                    <div className="center-logo">
-                      <div className="fs-4 text-white">Coding Master</div>
-                    </div>
-                  </div>
-                </section>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-12 col-sm-12 col-xs-12">
-              <div className="content-right">
-                <div className="box-item animated wow fadeInRight">
-                  <span className="icon-services">
-                    <img src={seo} alt="" className="w-100" />
-                  </span>
-                  <div className="text">
-                    <div className="fs-4 fw-bold">SEO</div>
-                    <p className="mt-3">
-                    SEO means the process of improving your website to increase its visibility in Google, and other 
-                    </p>
-                  </div>
-                </div>
-                <div
-                  className="box-item animated wow fadeInRight"
-                  data-wow-delay="0.6s"
-                >
-                  <span className="icon-services">
-                    <img src={datasci} alt="" className="w-100" />
-                  </span>
-                  <div className="text">
-                    <div className="fs-4 fw-bold">Data Science</div>
-                    <p className="mt-3">
-                    A steady stream of insights is all that you need for better decision-making.
-                    </p>
-                  </div>
-                </div>
-                <div
-                  className="box-item animated wow fadeInRight"
-                  data-wow-delay="0.9s"
-                >
-                  <span className="icon-services">
-                    <img src={iot} alt="" className="w-100" />
-                  </span>
-                  <div className="text">
-                    <div className="fs-4 fw-bold">Internet of things</div>
-                    <p className="mt-3">
-                    Monitor and analyze performance, streamline data flows,  processes & boost customer satisfaction.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
+            ))}
           </div>
         </div>
       </section>

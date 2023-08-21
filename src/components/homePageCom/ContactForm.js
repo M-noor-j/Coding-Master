@@ -14,8 +14,8 @@ const ContactForm = () => {
   return (
     <>
  
-      <form action="https://formspree.io/f/xaygowaw" method="POST">
-        <div className="my-form mt-5 pt-5">
+      <form action="https://formspree.io/f/xaygowaw" method="POST" >
+        <div className="my-form mt-5 pt-5" >
           <div className="container">
             <h1 className="text-white fw-bold">Get in touch !</h1>
             <ul className="ul-oiska">

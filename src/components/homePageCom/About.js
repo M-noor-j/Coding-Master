@@ -1,10 +1,10 @@
 import React from "react";
-import "../css/Aine.scss";
+import "../css/About.scss";
 import Button from "../button/Button";
 import { Link } from "react-router-dom";
 import coding from "../assets/coding.jpg";
 // import seo from "../assets/seo.png"
-const Aine = () => {
+const About = () => {
   return (
     <>
       <section className="about-section " id="about">
@@ -60,4 +60,4 @@ const Aine = () => {
   );
 };
 
-export default Aine;
+export default About;

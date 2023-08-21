@@ -21,9 +21,9 @@ const Footer = () => {
                 </p>
               </div>
             </div>
-            <div className="col-md-3 col-6">
+            <div className="col-md-3 col-6 text-center">
               <div className="useful-link">
-                <h2 className="text-white">Useful Links</h2>
+                <h2 className="text-white ">Useful Links</h2>
                 <img
                   src="./assets/images/about/home_line.png"
                   alt=""
@@ -53,7 +53,7 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-3 col-6 ">
+            <div className="col-md-3 col-6 text-center">
               <div className="social-links">
                 <h2 className="text-white">Follow Us</h2>
                 <img src="./assets/images/about/home_line.png" alt="" />
@@ -76,13 +76,14 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-3 col-6 ">
+            
+            <div className="col-md-3 col-6 text-center">
               <div className="address">
                 <h2 className="text-white">Address</h2>
                 <img
                   src="./assets/images/about/home_line.png"
                   alt=""
-                  class="img-fluid"
+                  className="img-fluid"
                 />
                 <div className="address-links">
                   <li className="address1">
